@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toby's Page</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <main> 
-        <div class="topnav" id="nav"></div>
-        <h1>Toby</h1>
+        <nav>
+            <div class="topnav">
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./toby.html">Toby</a></li>
+                  <li><a href="./lucy.html">Lucy</a></li>
+                  <li><a href="./process.html">Their Journey</a></li>
+                </ul>
+              </div>
+        </nav>
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script>    
-        $.get("navigationBar.html", function(data){
-            $("#nav").replaceWith(data);
-        });
-    </script>
+    
     <script src="index.js"></script>
 </body>
 </html>
